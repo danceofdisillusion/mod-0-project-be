@@ -49,13 +49,13 @@ Today you will learn about two common data types: Arrays and Hashes.
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then push your work to GitHub.
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
-    - [ ] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
+    - [X] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
 
-    - [ ] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.
+    - [X] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
+    - [X] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
+    - [X] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
 
 1. Work through the `arrays.rb` file in the section3/exercises directory.
 

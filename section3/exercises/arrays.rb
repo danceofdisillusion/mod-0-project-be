@@ -21,47 +21,56 @@ print animals
 
 # EXAMPLE: Write code below that will print "Zebra" from the animals array
 # YOUR CODE HERE
-print animals[0]
+puts animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
-
+puts animals.count
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
-
+animals[-1]="Gorilla"
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
+animals << "Unicorn"
 
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
-
+animals[2]= "Elephant"
+puts animals[2]
 
 #-------------------
 # PART 2: Foods: Array Methods
 #-------------------
 
 # YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+foods = ["ice cream", "pizza", "salad", "Hot Pockets"]
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
-
+puts foods
+puts foods.count
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
-
+foods << "broccoli"
+puts foods
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
-
-
+foods.delete("broccoli")
+# could also use foods.pop
+# foods.shift() would remove the first element
+# foods.delete_at(index) would remove a a specific index
+puts foods
 # YOU DO: Write code to add 3 new foods to the array. 
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
-
+foods += ["potato", "rice", "pasta"]
+#puts foods
 # YOU DO: Remove the food that is in index position 0.
-
+foods.shift()
+puts foods
 #-------------------
 # PART 3: Where are Arrays used?
 #-------------------
